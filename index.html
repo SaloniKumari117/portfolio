@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saloni's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Saloni Kumari</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <button id="darkModeToggle">🌙</button>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION WITH TYPEWRITER EFFECT -->
+    <section id="about">
+        <div class="about-content">
+            <img src="/profile.jpg" alt="Saloni Kumari" class="profile-img">
+            <h2>Hi, I'm <span class="typing"></span></h2>
+            <p>I am a passionate web developer who loves building interactive and user-friendly web applications.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <h1>Skills</h1>
+        <div class="skill-container">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">React</div>
+            <div class="skill">Git & GitHub</div>
+        </div>
+    </section>
+
+    <!-- PROJECTS WITH CREATIVE CARDS -->
+    <section id="projects">
+        <h1>Projects</h1>
+        <div class="project-container">
+            <div class="project-card">
+                <img src="/project.png" alt="Project 1">
+                <h3>Electronic-Website</h3>
+                <p>An interactive e-commerce website for seamless product browsing, secure transactions, and efficient order management.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="assets/project2.png" alt="Project 2">
+                <h3>Quiz Application</h3>
+                <p>A quiz app with multiple-choice questions and interactive UI.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT FORM -->
+        <section id="contact">
+            <h1>Contact Me</h1>
+            <img src="/Gmail Icon.jpg" alt="Email Icon" width="20">
+            <p>Email: example@example.com</p>
+        </section>
+        
+        <p>Let's connect and build something great!</p>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 Saloni Kumari</p>
+    </footer>
+
+</body>
+</html>
+
